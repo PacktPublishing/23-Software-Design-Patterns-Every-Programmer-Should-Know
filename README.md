@@ -240,5 +240,70 @@ https://onecompiler.com/python
 
 ### Swift
 
+**Setting up Swift Locally**
+=============================
+
+To install and run Swift code locally, you'll need to have Xcode installed on your Mac. Here's a step-by-step guide:
+
+**Step 1: Install Xcode**
+
+If you haven't already, download and install Xcode from the Mac App Store.
+
+**Step 2: Create a new Swift project**
+
+Launch Xcode and create a new project by selecting "File" > "New" > "Project..." from the menu bar. Choose the "Command Line Tool" template under the "macOS" section and click "Next". Name your project (e.g., "HelloWorld") and choose a location to save it.
+
+**Step 3: Write your first Swift code**
+
+In the Xcode project navigator, open the `main.swift` file and replace its contents with your own Swift code. For example:
+```swift
+print("Hello, World!")
+```
+**Step 4: Run your Swift code**
+
+To run your Swift code, click the "Product" menu in the top bar and select "Run" or press `Cmd + R`. You should see the output of your program in the console.
+
+That's it! You've successfully set up a Swift development environment on your Mac and written your first Swift program.
+
+**Run Swift in terminal**
+==========================
+
+To run Swift code locally in the Mac Terminal, you can use the `swift` command followed by the name of your Swift file. Here's an example:
+
+**Step 1: Create a new Swift file**
+
+Open a text editor (e.g., TextEdit, Sublime Text, or Visual Studio Code) and create a new file with a `.swift` extension (e.g., `hello.swift`).
+
+**Step 2: Write your Swift code**
+
+In the `hellow.swift` file, write your Swift code:
+```swift
+print("Hello, World!")
+```
+**Step 3: Open the Terminal app**
+
+Open the Terminal app on your Mac.
+
+**Step 4: Navigate to the directory**
+
+Navigate to the directory where your `hello.swift` file is located
+
+**Step 5: Compile and run the Swift code**
+
+Compile and run the Swift code using the following commands:
+```bash
+swiftc hello.swift -o hello.o
+./hello.o
+```
+The first command compiles the `HelloWorld.swift` file into an executable file named `HelloWorld`. The second command runs the executable file.
+
+You should see the output "Hello, World!" printed to the console.
+
+**Running Swift online**
+==========================
+
+Sites like the following can be used, if you want to run the code quickly and have no need to run locally:
+https://onecompiler.com/swift
+
 ### TypeScript
 
