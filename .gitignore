@@ -1,0 +1,16 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+# Ignore IDE settings and configuration files
+.idea/
+.vscode/
+# Ignore binary files
+*.exe
+*.bin
+*.exe
+*.out
+*.o
+*.obj
+# Ignore backup files
+*.bak
+*.tmp
