@@ -170,6 +170,74 @@ https://onecompiler.com/kotlin
 
 ### Python
 
+**Setting up Python Locally**
+=============================
+
+Here's a step-by-step guide to setting up Python on your local computer:
+
+**For Windows:**
+
+1. **Download the Python installer**: Go to the official Python download page and download the latest version of Python for Windows.
+2. **Run the installer**: Run the downloaded installer and follow the prompts to install Python.
+3. **Add Python to your PATH**: During the installation process, make sure to select the option to add Python to your system's PATH.
+4. **Verify the installation**: Open a command prompt or PowerShell and type `python --version` to verify that Python is installed correctly.
+
+**For macOS (using Homebrew):**
+
+1. **Install Homebrew**: If you haven't already, install Homebrew by following the instructions on the Homebrew website.
+2. **Install Python**: Use Homebrew to install Python by running the following command:
+```bash
+brew install python
+```
+3. **Add path**: 
+Type the following command and press Enter:
+```Shell Script
+becho 'export PATH="/usr/bin/python3:$PATH"' >> ~/.bash_rc
+```
+Add the following line at the end of ~/.bashrc 
+```Shell Script
+alias python='python3'
+```
+Reload the ~/.bashrc file by typing: 
+```Shell Script
+source ~/.bash_rc
+```
+4. **Verify the installation**: Open a terminal and type `python --version` to verify that Python is installed correctly.
+
+**For Linux:**
+
+1. **Update the package list**: Update the package list by running the following command:
+```bash
+sudo apt update
+```
+2. **Install Python**: Install Python by running the following command:
+```bash
+sudo apt install python3
+```
+3. **Verify the installation**: Open a terminal and type `python3 --version` to verify that Python is installed correctly.
+
+Note: The above commands are for Ubuntu-based systems. For other Linux distributions, the package manager and commands may vary.
+
+**Run Python in terminal**
+==========================
+
+1. Create a new Python file (e.g., `hello.py`) with the following content:
+```python
+print("Hello, World!")
+```
+2. Run the Python script using the python command followed by the script name. For example::
+```Shell Script
+python hello.py
+```
+
+This should print "Hello, World!" to the console.
+
+**Running Python online**
+==========================
+
+Sites like the following can be used, if you want to run the code quickly and have no need to run locally:
+https://onecompiler.com/python
+
 ### Swift
 
 ### TypeScript
