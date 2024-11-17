@@ -11,6 +11,7 @@ Thumbs.db
 *.out
 *.o
 *.obj
+*.jar
 # Ignore backup files
 *.bak
 *.tmp

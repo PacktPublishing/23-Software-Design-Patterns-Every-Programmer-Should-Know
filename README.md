@@ -97,6 +97,77 @@ https://onecompiler.com/cpp
 
 ### Kotlin
 
+**Setting up Kotlin Locally**
+==========================
+
+To set up a Kotlin development environment locally, you can follow these steps:
+
+**Step 1: Install JDK**
+
+Kotlin requires the Java Development Kit (JDK) to be installed on your system. You can download and install the JDK from the official Oracle website.
+
+**Step 2: Install IntelliJ IDEA or Android Studio**
+
+IntelliJ IDEA and Android Studio are popular integrated development environments (IDEs) that support Kotlin development. You can download and install either of these IDEs from their official websites.
+
+**Step 3: Install the Kotlin Plugin**
+
+Once you have installed IntelliJ IDEA or Android Studio, you need to install the Kotlin plugin. The plugin provides syntax highlighting, code completion, and other features that make it easier to develop Kotlin applications.
+
+**Step 4: Create a New Kotlin Project**
+
+After installing the Kotlin plugin, create a new Kotlin project in IntelliJ IDEA or Android Studio. Choose the "Kotlin" option when creating the project, and select the desired project template.
+
+**Step 5: Write Your First Kotlin Program**
+
+Create a new Kotlin file in your project and write your first Kotlin program. You can start with a simple "Hello, World!" program:
+```kotlin
+fun main() {
+    println("Hello, World!")
+}
+```
+Run the program using the "Run" button or by pressing Shift+F10. You should see the output "Hello, World!" in the console.
+
+That's it! You've successfully set up a Kotlin development environment and written your first Kotlin program.
+
+**Run Kotlin in terminal**
+==========================
+
+You can run Kotlin code in the Mac command prompt using the `kotlinc` compiler and the `java` runtime.
+
+Here are the steps:
+
+1. Install the Kotlin compiler:
+```bash
+brew install kotlin
+```
+2. Create a new Kotlin file (e.g., `hello.kt`) with the following content:
+```kotlin
+fun main() {
+    println("Hello, World!")
+}
+```
+3. Compile the Kotlin file using the `kotlinc` compiler:
+```bash
+kotlinc hello.kt -include-runtime -d hello.jar
+```
+This will compile the Kotlin file and create a JAR file named `hello.jar`.
+
+4. Run the JAR file using the `java` command:
+```bash
+java -jar hello.jar
+```
+This should print "Hello, World!" to the console.
+
+Note: Make sure you have the JDK installed on your system and that the `java` and `kotlinc` commands are available in your terminal.
+
+**Running Kotlin online**
+==========================
+
+Sites like the following can be used, if you want to run the code quickly and have no need to run locally:
+https://onecompiler.com/kotlin
+
+
 ### Python
 
 ### Swift
