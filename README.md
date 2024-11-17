@@ -307,3 +307,42 @@ https://onecompiler.com/swift
 
 ### TypeScript
 
+**Setting up TypeScript Locally**
+=============================
+
+To install and run TypeScript locally, you can follow these steps:
+
+**Step 1: Install Node.js**
+
+If you haven't already, download and install Node.js from the official website.
+
+**Step 2: Install TypeScript**
+
+Open a terminal or command prompt and run the following command to install TypeScript globally:
+```bash
+npm install -g typescript
+```
+This will install the TypeScript compiler and other related tools on your system.
+
+**Step 3: Create a new TypeScript project**
+
+Create a new directory for your project and navigate into it in the terminal or command prompt. Then, create a new file called `hello.ts` and add some TypeScript code to it:
+```typescript
+console.log("Hello, World!");
+```
+**Step 4: Compile and run the TypeScript code**
+
+To compile and run the TypeScript code, navigate to the project directory in the terminal or command prompt and run the following commands:
+```bash
+tsc hello.ts
+node hello.js
+```
+The first command compiles the `hello.ts` file into JavaScript using the TypeScript compiler (`tsc`). The second command runs the compiled JavaScript code using Node.js.
+
+You should see the output "Hello, World!" printed to the console.
+
+**Running TypeScript online**
+==========================
+
+Sites like the following can be used, if you want to run the code quickly and have no need to run locally:
+https://onecompiler.com/typescript
