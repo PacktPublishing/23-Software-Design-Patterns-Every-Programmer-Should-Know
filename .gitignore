@@ -15,3 +15,5 @@ Thumbs.db
 # Ignore backup files
 *.bak
 *.tmp
+# node specific
+node_modules/
