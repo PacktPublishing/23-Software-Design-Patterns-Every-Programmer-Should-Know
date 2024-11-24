@@ -14,7 +14,30 @@ Thumbs.db
 *.jar
 # Ignore backup files
 *.bak
-*.tmp
 # node specific
 node_modules/
 __pycache__/
+
+# Gradle build output
+/build/
+.gradle/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# IntelliJ IDEA files
+/.idea/
+/*.iml
+
+# VS Code files
+.vscode/
+
+# Eclipse files
+.classpath
+.project
+.settings/
