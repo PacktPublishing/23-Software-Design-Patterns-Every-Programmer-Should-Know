@@ -17,3 +17,4 @@ Thumbs.db
 *.tmp
 # node specific
 node_modules/
+__pycache__/
