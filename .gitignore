@@ -1,0 +1,43 @@
+# Ignore operating system files
+.DS_Store
+Thumbs.db
+# Ignore IDE settings and configuration files
+.idea/
+.vscode/
+# Ignore binary files
+*.exe
+*.bin
+*.exe
+*.out
+*.o
+*.obj
+*.jar
+# Ignore backup files
+*.bak
+# node specific
+node_modules/
+__pycache__/
+
+# Gradle build output
+/build/
+.gradle/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# IntelliJ IDEA files
+/.idea/
+/*.iml
+
+# VS Code files
+.vscode/
+
+# Eclipse files
+.classpath
+.project
+.settings/
