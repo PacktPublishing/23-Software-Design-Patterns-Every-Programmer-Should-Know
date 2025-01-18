@@ -68,7 +68,7 @@ Save the file and navigate to the directory containing the file in your terminal
 
 Compile the program using the following command:
 ```bash
-gcc -lstdc++ hello.cpp -o hello.o
+gcc -lstdc++  -std=c++14 hello.cpp -o hello.o
 ```
 This will create an executable file called `hello` in the same directory.
 
