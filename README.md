@@ -334,7 +334,7 @@ console.log("Hello, World!");
 
 To compile and run the TypeScript code, navigate to the project directory in the terminal or command prompt and run the following commands:
 ```bash
-tsc hello.ts
+tsc --lib es2015, dom hello.ts
 node hello.js
 ```
 The first command compiles the `hello.ts` file into JavaScript using the TypeScript compiler (`tsc`). The second command runs the compiled JavaScript code using Node.js.
